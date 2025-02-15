@@ -1,0 +1,24 @@
+{
+    "socialLinks": [
+        {
+            "href": "https://www.linkedin.com/in/ankit5999/",
+            "icon": "Linkedin",
+            "label": "Follow me on Linkedin"
+        },
+        {
+            "href": "https://www.youtube.com/workforwin",
+            "icon": "Youtube",
+            "label": "Follow me on YouTube"
+        },
+        {
+            "href": "https://www.workforwin.com/",
+            "icon": "Dribbble",
+            "label": "Follow me on Workforwin"
+        },
+        {
+            "href": "https://x.com/ankit5999",
+            "icon": "Twitter",
+            "label": "Follow me on Twitter"
+        }
+    ]
+}

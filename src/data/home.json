@@ -1,0 +1,301 @@
+{
+    "hero_section": {
+        "h1": "Hello! I'm Ankit",
+        "h2": "A Product Manager based in Gurugram, Haryana (India).",
+        "p": "Passionate creating great experiences for Digital Product",
+        "links": [
+            {
+                "href": "#footer",
+                "title": "Talk with me",
+                "className": "w-full",
+                "ref": "footer"
+            },
+            {
+                "href": "/projects",
+                "title": "See my work",
+                "className": "bg-gray-100/80 text-gray-900 hover:bg-gray-200 w-full",
+                "ref": ""
+            }
+        ]
+    },
+    "experience_section": {
+        "experienceItems": {
+            "items": [
+                {
+                    "company": "Workforwin",
+                    "role": "Product design at",
+                    "date": "February 2018 - February 2021",
+                    "icon": "/assets/images/brands/workforwin.svg"
+                },
+                {
+                    "company": "Linkedin",
+                    "role": "Product content creator at",
+                    "date": "March 2021 - December 2024",
+                    "icon": "/assets/images/brands/linkedin.svg"
+                },
+                {
+                    "company": "Nectar Lyfe",
+                    "role": "Product Manager at",
+                    "date": "January 2025 - Present",
+                    "icon": "/assets/images/brands/nectarlyfe.svg"
+                }
+            ],
+            "h3": "Working experience"
+        },
+        "awardItems": {
+            "items": [
+                {
+                    "award": "Student Program Leader",
+                    "description": "Part-time Product design at",
+                    "date": "24 August 2020",
+                    "icon": "Ribbon"
+                },
+                {
+                    "award": "Linkedin Top Voice Award",
+                    "description": "Product design at",
+                    "date": "30 April 2024",
+                    "icon": "Award"
+                },
+                {
+                    "award": "Best Associate Product Manager",
+                    "description": "Senior Product design at",
+                    "date": "05 February 2025",
+                    "icon": "Trophy"
+                }
+            ],
+            "h3": "Awards & Recognition"
+        }
+    },
+    "services_section": {
+        "serviceItems": [
+            {
+                "title": "User-Centric Scalable Solutions",
+                "description": "As a product manager, I craft user-centric, high-impact product experiences by aligning business goals with customer needs.",
+                "image": "/assets/images/projects/project1.svg",
+                "href": "#",
+                "button": "Explore more"
+            },
+            {
+                "title": " From Vision to Scalable Digital Products",
+                "description": "Combining product thinking with hands-on tech expertise, I drive the creation of robust, scalable tech products.",
+                "image": "/assets/images/projects/project2.svg",
+                "href": "#",
+                "button": "Explore more"
+            }
+        ],
+        "h2": "I can help you with",
+        "button": "See my work"
+    },
+    "expert_section": {
+        "statItems": [
+            {
+                "icon": "Target",
+                "number": "25+",
+                "label": "Projects Finished"
+            },
+            {
+                "icon": "Code2",
+                "number": "5+",
+                "label": "Product Developed"
+            },
+            {
+                "icon": "Blocks",
+                "number": "50k+",
+                "label": "Happy Followers"
+            },
+            {
+                "number": "3+",
+                "label": "Years Experience"
+            },
+            {
+                "number": "12+",
+                "label": "Team Members"
+            },
+            {
+                "number": "24/7",
+                "label": "Support Available"
+            }
+        ],
+        "h2": "Experience with a variety of Projects and Industries.",
+        "p": "We create custom-tailored software solutions to help your business grow and succeed, bringing your ideas to life with cutting-edge technology.",
+        "links": [
+            {
+                "href": "#footer",
+                "title": "Talk with me",
+                "className": "w-full"
+            },
+            {
+                "href": "/projects",
+                "title": "See my work",
+                "className": "bg-gray-100/80 text-gray-900 hover:bg-gray-200 w-full"
+            }
+        ]
+    },
+    "selected_work_section": {
+        "works": [
+            {
+                "title": "Workforwin",
+                "subtitle": "Learn whatever you want",
+                "description": "For anyone to learn anything, in the comfort of home, with flexible learning hours, flexible schedule, and guided learning path by industry experts.",
+                "image": "/assets/images/projects/project5.svg",
+                "date": "August 2020"
+            },
+            {
+                "title": "Mindamigo",
+                "subtitle": "Mental Health and Wellness Company",
+                "description": "A holistic approach to mental wellbeing with an eclectic combination of techniques and insights from CBT and ACT, empowering people to discover what works best for them.",
+                "image": "/assets/images/projects/project7.svg",
+                "date": "May 2022"
+            }
+        ],
+        "h2": "Selected works",
+        "link": {
+            "href": "",
+            "title": "View detail works"
+        }
+    },
+    "testimonials_section": {
+        "testimonials": [
+            {
+                "id": 1,
+                "image": "/assets/images/team/aditya.svg",
+                "position": {
+                    "top": "5%",
+                    "left": "10%"
+                }
+            },
+            {
+                "id": 2,
+                "image": "/assets/images/team/adam.svg",
+                "position": {
+                    "top": "10%",
+                    "left": "25%"
+                }
+            },
+            {
+                "id": 3,
+                "image": "/assets/images/team/amit.svg",
+                "position": {
+                    "top": "15%",
+                    "right": "30%"
+                }
+            },
+            {
+                "id": 4,
+                "image": "/assets/images/team/vishal.svg",
+                "position": {
+                    "top": "5%",
+                    "right": "15%"
+                }
+            },
+            {
+                "id": 5,
+                "image": "/assets/images/team/saurabh.svg",
+                "position": {
+                    "bottom": "25%",
+                    "left": "5%"
+                }
+            },
+            {
+                "id": 6,
+                "image": "/assets/images/team/rahul.svg",
+                "position": {
+                    "bottom": "20%",
+                    "right": "10%"
+                }
+            },
+            {
+                "id": 7,
+                "image": "/assets/images/team/ashish.svg",
+                "position": {
+                    "bottom": "15%",
+                    "right": "30%"
+                }
+            },
+            {
+                "id": 8,
+                "image": "/assets/images/team/rakesh.svg",
+                "position": {
+                    "bottom": "10%",
+                    "left": "25%"
+                }
+            }
+        ],
+        "h2": "Trusted by leaders",
+        "h3": "from various industries",
+        "button": "Let's talk now",
+        "dialog_title": "Let's Connect 👋"
+    },
+    "skills_section": {
+        "skills": [
+            {
+                "category": "Development",
+                "icon": "Code2",
+                "skills": [
+                    "React.js",
+                    "Next.js",
+                    "TypeScript",
+                    "Node.js",
+                    "Python",
+                    "Express.js",
+                    "MongoDB",
+                    "SQL"
+                ],
+                "color": "from-blue-500 to-cyan-400"
+            },
+            {
+                "category": "Design",
+                "icon": "Palette",
+                "skills": [
+                    "UI/UX",
+                    "Figma",
+                    "Adobe XD",
+                    "Design Systems",
+                    "Wireframing",
+                    "Prototyping",
+                    "Video Editing"
+                ],
+                "color": "from-purple-500 to-pink-400"
+            },
+            {
+                "category": "Tools",
+                "icon": "PenTool",
+                "skills": [
+                    "Google Analytics",
+                    "Jira",
+                    "Framer Motion",
+                    "Trello",
+                    "REST API",
+                    "GraphQL",
+                    "Canva"
+                ],
+                "color": "from-green-500 to-emerald-400"
+            },
+            {
+                "category": "Management",
+                "icon": "Group",
+                "skills": [
+                    "Team Leadership",
+                    "Project Planning",
+                    "Agile",
+                    "Risk Management",
+                    "Client Relations",
+                    "Scrum"
+                ],
+                "color": "from-teal-500 to-teal-400"
+            }
+        ],
+        "h2": "My Expertise",
+        "h4": "Having project in mind?",
+        "p": "Let's connect and build your dream project.",
+        "link": {
+            "title": "Connect me",
+            "href": "#footer",
+            "ref": "footer"
+        },
+        "img": {
+            "path": "/assets/images/projects/project8.svg",
+            "alt": "Hire me!"
+        }
+    }
+}

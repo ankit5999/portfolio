@@ -1,6 +1,48 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+<!-- ![Workforwin Logo](https://res.cloudinary.com/workforwin/image/upload/v1662996166/Workforwin/Workforwin%20Frontend/Home/workforwin_logo_ie1gut.png) -->
 
-## Getting Started
+# [<span style="color:#529CF9">Ankit ~ </span> <span style="color:#F2B45D">*Product Manager*🎉</span>](#) 
+
+Ankit Portfolio. 
+
+[Parent Name:](#) - Workforwin
+[Company Name:](#) - Ankit
+[Author:](#) - Ankit Kumar
+[License:](#) - Workforwin License
+[Designed By:](#) - Ankit Kumar
+[Designed In:](#) - India
+[Url:](#) - https://ankit.workforwin.com/
+## ❄️ Technical Documentation
+###### Frontend:
+- [Next Js - ```Frontend```](#)
+- [Tailwind CSS - ```Styling```](#)
+- [Typescript - ```type Safety```](#)
+###### Backend:
+- [Node Js - ```Backend```](#)
+- [Express Js - ```Backend```](#)
+- [Nodemailer - ```Send Email```](#)
+###### Database:
+- [Mongodb - ```Database```](#)
+- [Postgress - ```Database```](#)
+- [Redis - ```In Memory```](#)
+- [RebitMQ - ```Queue System```](#)
+###### API:
+- [REST - ```In 1```](#)
+- [GraphQL - ```In 2```](#)
+- [TRPC - ```In 3```](#)
+###### Hosting: 
+- [Cloudinary - ```Image Hosting```](#)
+- [Supabase - ```PDF Hosting```](#)
+- [Firebase - ```Website Hosting```](#)
+- [Github - ```Code Hosting```](#)
+
+### ❄️ ENV VAR
+|CONFIG                   | VARIABLES               |
+|-------------------------|-------------------------|
+|🔸 **PORT NUMBER**          |- PORT                    |
+|🔸 **DATABASE CONNECTION**  |- DB_CONNECTION_STRING    |  
+|🔸 **MAIL PASSWORD**        |- MAIL_PASSWORD           |
+
+## ❄️ Getting Started
 
 First, run the development server:
 
@@ -8,29 +50,22 @@ First, run the development server:
 npm run dev
 # or
 yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+You can start editing the page by modifying `pages/index.js`. 
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+<!-- ## ❄️ Create Production Build
+``npm run build && npm run export``
 
-## Learn More
+## ❄️ Project Deployement
+- ```firebase init``` - [*Initialize Project*](#)
+- ```firebase deploy``` - [*Deploye Project*](#)
 
-To learn more about Next.js, take a look at the following resources:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### **<span style="color:#03989E">Workforwin CEO</span>**
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+![Ankit yadav](https://github.com/ankit5999/workforwin-images/blob/main/char2.png?raw=true) 
+[Ankit Yadav](#) -->
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.

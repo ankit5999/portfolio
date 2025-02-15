@@ -1,0 +1,75 @@
+{
+    "form": {
+        "name": {
+            "title": "name",
+            "label": "Name",
+            "placeholder": "Ankit Kumar"
+        },
+        "email": {
+            "title": "email",
+            "label": "Email",
+            "placeholder": "ankit@workforwin.com"
+        },
+        "phone": {
+            "title": "phone",
+            "label": "Phone",
+            "placeholder": "+919876543210"
+        },
+        "subject": {
+            "title": "subject",
+            "label": "Subject",
+            "placeholder": "Message for Ankit"
+        },
+        "message": {
+            "title": "message",
+            "label": "Message",
+            "placeholder": "Tell me how I can help..."
+        },
+        "country": {
+            "title": "country",
+            "label": "Country",
+            "placeholder": "Select your country",
+            "Countries": [
+                "United States",
+                "United Kingdom",
+                "Canada",
+                "Australia",
+                "India",
+                "Germany",
+                "Japan",
+                "Iran",
+                "UAE",
+                "Ireland",
+                "Poland",
+                "Holland",
+                "Italy",
+                "Switzerland",
+                "Pakistan",
+                "Bangladesh",
+                "Shri Lanka",
+                "Greenland",
+                "Monaco",
+                "Singapore",
+                "Other"
+            ]
+        }
+    },
+    "button": {
+        "sending": "Sending",
+        "message": "Send Message"
+    },
+    "error": {
+        "failure": "Failed to send message",
+        "failure_message": "Please try again later.",
+        "success": "Message sent successfully!",
+        "success_message": "I'll get back to you soon."
+    },
+    "validations": {
+        "name": "Name must be at least 2 characters",
+        "email": "Please enter a valid email address",
+        "phone": "Please enter a valid phone number",
+        "country": "Please select a country",
+        "subject": "Subject must be at least 5 characters",
+        "message": "Message must be at least 10 characters"
+    }
+}
