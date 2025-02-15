@@ -8,7 +8,7 @@ import { AdminContactBody } from "@/lib/templates/adminContact";
 const transporter = nodemailer.createTransport({
     host: process.env.SMTP_HOST,
     port: Number(process.env.SMTP_PORT),
-    secure: true,
+    // secure: true,
     auth: {
         user: process.env.SMTP_USER,
         pass: process.env.SMTP_PASSWORD,
@@ -34,15 +34,16 @@ export async function POST(req: Request) {
 
         // Send email to admin
         await transporter.sendMail({
-            from: process.env.SMTP_FROM,
-            to: process.env.ADMIN_EMAIL,
+            from: process.env.ADMIN_EMAIL,
+            to: process.env.USER_EMAIL,
             subject: `New Contact Form Submission From: Ankit Kumar Website`,
             html: AdminContactBody(name, email, phone, country, subject, message),
         });
 
         // Send confirmation email to user
         await transporter.sendMail({
-            from: process.env.SMTP_FROM,
+            // from: process.env.ADMIN_EMAIL,
+            from: '"Ankit Kumar" <noreply@workforwin.com>',
             to: email,
             subject: "Message received from Ankit",
             html: userContactBody(name, email, phone, country, subject, message),
@@ -53,7 +54,8 @@ export async function POST(req: Request) {
             { status: 200 }
         );
     } catch (error) {
-        return NextResponse.json(
+        console.log(error)
+        return NextResponse.json(            
             { error: "Failed to send message" },
             { status: 500 }
         );

@@ -13,8 +13,7 @@ export const userContactBody = (
 <head>
     <meta content="text/html; charset=UTF-8" http-equiv="Content-Type" />
 </head>
-<div style="display:none;overflow:hidden;line-height:1px;opacity:0;max-height:0;max-width:0">Welcome to Nectar! We’re thrilled to have you join the world’s best healthcare platform designed to support you every
-                    step of the way.<div>
+<div style="display:none;overflow:hidden;line-height:1px;opacity:0;max-height:0;max-width:0">Hey, ${name} I'm happy to hear from you. Thanks for connecting me.<div>
     </div>
 </div>
 
@@ -24,7 +23,7 @@ export const userContactBody = (
         style="max-width:37.5em;margin:0 auto;padding:20px 0 48px">
         <tbody>
             <tr style="width:100%">
-                <td><img alt="AK" height="50" src="../../../public/assets/images/logo.svg"
+                <td><img alt="AK" height="50" src="https://ankit.workforwin.com/assets/icons/maskable.png"
                         style="display:block;outline:none;border:none;text-decoration:none;border:2px black dashed; border-radius: 100%; padding: 4px;"
                         width="52" />
                     <p style="font-size:16px;line-height:26px;margin:16px 0">Dear ${name},</p>
@@ -43,7 +42,7 @@ export const userContactBody = (
                     <p style="font-size:16px;line-height:26px;margin:16px 0">Best,<br />Ankit Kumar</p>
                     <hr
                         style="width:100%;border:none;border-top:1px solid #eaeaea;border-color:#cccccc;margin:20px 0" />
-                    <p style="font-size:12px;line-height:24px;margin:16px 0;color:#8898aa">Gurugram, Haryana, India<br />+91 8396836615</p>
+                    <p style="font-size:12px;line-height:24px;margin:16px 0;color:#f4f5ef">Gurugram, Haryana, India<br />+91 8396836615</p>
                 </td>
             </tr>
         </tbody>

@@ -127,11 +127,11 @@ export default function ChatBot() {
                     <motion.div
                         initial={{ opacity: 0, y: 20 }}
                         animate={{ opacity: 1, y: 0 }}
-                        exit={{ opacity: 0, y: 20 }}
-                        className="fixed inset-4 sm:inset-auto sm:right-6 sm:bottom-24 sm:w-96 h-[calc(100vh-10rem)] bg-background border rounded-lg shadow-xl flex flex-col z-50"
+                        exit={{ opacity: 0, y: 20 }} 
+                        className="fixed bottom-0 right-0 z-50 flex flex-col rounded-lg bg-white shadow-xl md:bottom-24 md:right-8 h-full w-full md:max-h-[70vh] md:max-w-[400px]"
                     >
                         {/* Header */}
-                        <div className="p-4 bg-primary text-primary-foreground flex justify-between items-center rounded-t-lg">
+                        <div className="p-4 bg-primary text-primary-foreground flex justify-between items-center md:rounded-t-lg">
                             <h2 className="text-lg font-semibold">Ankit's Assistant</h2>
                             <button
                                 onClick={handleClose}
@@ -164,7 +164,7 @@ export default function ChatBot() {
                         </ScrollArea>
 
                         {/* Input Form (always sticks to bottom) */}
-                        <form onSubmit={handleSubmit} className="p-4 border-t bg-background rounded-b-lg">
+                        <form onSubmit={handleSubmit} className="p-4 border-t bg-background md:rounded-b-lg">
                             <div className="flex gap-2">
                                 <input
                                     type="text"

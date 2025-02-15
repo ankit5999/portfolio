@@ -151,7 +151,7 @@ export function ContactForm({ onSubmit }: { onSubmit: (values: any) => void }) {
                             control={form.control}
                             name="message"
                             render={({ field }) => (
-                                <FormItem className="mb-8">
+                                <FormItem className="mb-4">
                                     <FormLabel>{FormData.message.label}</FormLabel>
                                     <FormControl>
                                         <Textarea

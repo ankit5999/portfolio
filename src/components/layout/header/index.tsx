@@ -30,14 +30,16 @@ export default function Header() {
                 <div className="flex justify-between items-center h-[72px]">
                     <div className="flex gap-12">
                         <div className="flex items-center w-12 h-12">
-                            <Image
-                                src={SectionData.logo}
-                                alt={SectionData.logo_alt}
-                                width={50}
-                                height={50}
-                                priority
-                                className="w-auto h-auto"
-                            />
+                            <Link aria-label="logo" href="/">
+                                <Image
+                                    src={SectionData.logo}
+                                    alt={SectionData.logo_alt}
+                                    width={50}
+                                    height={50}
+                                    priority
+                                    className="w-auto h-auto"
+                                />
+                            </Link>
                         </div>
 
                         <nav className="hidden md:flex items-center gap-12">
