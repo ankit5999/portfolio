@@ -37,7 +37,10 @@ export default function PWANotification() {
         const handleBeforeInstallPrompt = (event: Event) => {
             event.preventDefault();
             setDeferredPrompt(event);
-            setIsVisible(true);
+            // Delay the visibility of the popup (e.g., 3 seconds)
+            setTimeout(() => {
+                setIsVisible(true);
+            }, 5000);
         };
 
         window.addEventListener("beforeinstallprompt", handleBeforeInstallPrompt);

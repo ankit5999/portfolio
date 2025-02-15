@@ -14,6 +14,7 @@ import { GoogleFonts } from "@/fonts";
 export default function Hero() {
     const SectionData = HomeData.hero_section;
     const [showAvatar, setShowAvatar] = useState(false);
+    const [imageLoaded, setImageLoaded] = useState(false);
 
     useEffect(() => {
         const timer = setTimeout(() => setShowAvatar(true), 900);
@@ -40,10 +41,18 @@ export default function Hero() {
                             transition={{ duration: 0.5, delay: 0.2 }}
                         >
                             <Avatar className="h-24 w-24 bg-appBrown-800 mb-8">
-                                {showAvatar ? (
-                                    <AvatarImage src="/assets/images/team/ankit.svg" alt="@ankit5999" />
-                                ) : (
-                                    <AvatarFallback className={`text-2xl font-bold ${GoogleFonts.sanchez.className}`}>Ak</AvatarFallback>
+                                {showAvatar && (
+                                    <AvatarImage
+                                        src="/assets/images/team/ankit.svg"
+                                        alt="@ankit5999"
+                                        onLoad={() => setImageLoaded(true)}
+                                        className={imageLoaded ? "opacity-100" : "opacity-0"}
+                                    />
+                                )}
+                                {!imageLoaded && (
+                                    <AvatarFallback className={`text-2xl font-bold ${GoogleFonts.sanchez.className}`}>
+                                        Ak
+                                    </AvatarFallback>
                                 )}
                             </Avatar>
                             <h1 className="text-5xl md:text-6xl font-bold mb-8">

@@ -11,6 +11,8 @@ import Cursor from "@/components/layout/cursor";
 import ChatBot from "@/components/bot/chat";
 import BotWarning from "@/components/bot/warning";
 import PWANotification from "@/components/notifications/pwa-notifications";
+import { Analytics } from "@vercel/analytics/react"
+import { SpeedInsights } from "@vercel/speed-insights/next"
 
 export const metadata: Metadata = {
   title: "Ankit Kumar",
@@ -34,10 +36,20 @@ export const metadata: Metadata = {
     },
   },
   openGraph: {
-    images: '/assets/images/social_banner.svg',
     title: "Ankit Kumar",
-    description: "Hi 👋, I'm Ankit Kumar, a results-driven Product Manager dedicated to creating applications that simplify life. Specializing in healthcare, education, and fitness, I thrive on solving real-world challenges."
-  },
+    description: "Hi 👋, I'm Ankit Kumar, a results-driven Product Manager dedicated to creating applications that simplify life. Specializing in healthcare, education, and fitness, I thrive on solving real-world challenges.",
+    url: "https://ankit.workforwin.com", // Add your website URL
+    type: "website", // Defines the type of content
+    images: [
+      {
+        url: "https://ankit.workforwin.com/assets/images/social_banner.png", // Use an absolute URL
+        width: 1200, // Standard for social previews
+        height: 630, // Ensures proper aspect ratio
+        alt: "Ankit Kumar - Product Manager" // Accessibility benefit
+      }
+    ]
+  }
+
 };
 
 // ✅ Export viewport separately
@@ -64,6 +76,8 @@ export default function Layout({
           <Toaster />
           <ChatBot />
           <PWANotification />
+          <Analytics />
+          <SpeedInsights />
         </NavContextProvider>
       </body>
     </html>
