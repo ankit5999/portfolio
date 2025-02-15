@@ -26,9 +26,6 @@ export default function PWANotification() {
         const lastShown = localStorage.getItem("pwaPromptLastShown");
         const today = new Date().toISOString().split("T")[0];
 
-        setTimeout(() => {
-            setIsVisible(true);
-        }, 3000);
 
         const isPWAInstalled =
             window.matchMedia("(display-mode: standalone)").matches || (window.navigator as any).standalone;
@@ -38,6 +35,10 @@ export default function PWANotification() {
             return;
         }
 
+        setTimeout(() => {
+            setIsVisible(true);
+        }, 3000);
+        
         const handleBeforeInstallPrompt = (event: Event) => {
             event.preventDefault();
             setDeferredPrompt(event);
