@@ -72,7 +72,8 @@ export default function Testimonial() {
                                 {SectionData.button}
                             </Button>
                         </DialogTrigger>
-                        <DialogContent className="sm:max-w-[500px] md:h-[90vh] h-[calc(100vh-3.5rem)] px-0">
+                        <DialogContent className="sm:max-w-[500px] h-full w-full md:max-h-[80vh] px-0">
+                            {/* <DialogContent className="sm:max-w-[500px] md:h-[90vh] h-[calc(100vh-3.5rem)] h-full w-full md:max-h-[70vh] md:max-w-[400px] px-0"> */}
                             <DialogTitle className="px-4 text-[22px] leading-[1.2] font-medium z-20">{SectionData.dialog_title}</DialogTitle>
                             <div className="overflow-hidden rounded-tl absolute">
                                 <div className="relative overflow-hidden top-0 left-0 w-32 h-32 z-10 bg-appBrown-800 rounded-full -translate-y-16 -translate-x-16"></div>

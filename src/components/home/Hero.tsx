@@ -25,13 +25,13 @@ export default function Hero() {
             <div className="max-w-7xl mx-auto px-4">
                 <div className="grid md:grid-cols-2 gap-12 items-center">
                     <div>
-                        <Avatar className="h-24 w-24 bg-appBrown-800 mb-8">
+                        {/* <Avatar className="h-24 w-24 bg-appBrown-800 mb-8">
                             {showAvatar ? (
                                 <AvatarImage src="/assets/images/team/ankit.svg" alt="@ankit5999" />
                             ) : (
                                 <AvatarFallback className={`text-2xl font-bold ${GoogleFonts.sanchez.className}`}>Ak</AvatarFallback>
                             )}
-                        </Avatar>
+                        </Avatar> */}
                         <motion.div
                             initial={{ opacity: 0, y: 20 }}
                             animate={{ opacity: 1, y: 0 }}
@@ -39,6 +39,13 @@ export default function Hero() {
                             viewport={{ once: true }}
                             transition={{ duration: 0.5, delay: 0.2 }}
                         >
+                            <Avatar className="h-24 w-24 bg-appBrown-800 mb-8">
+                                {showAvatar ? (
+                                    <AvatarImage src="/assets/images/team/ankit.svg" alt="@ankit5999" />
+                                ) : (
+                                    <AvatarFallback className={`text-2xl font-bold ${GoogleFonts.sanchez.className}`}>Ak</AvatarFallback>
+                                )}
+                            </Avatar>
                             <h1 className="text-5xl md:text-6xl font-bold mb-8">
                                 {SectionData.h1}
                             </h1>
