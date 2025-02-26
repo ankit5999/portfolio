@@ -16,7 +16,7 @@ export default function NotFound() {
                     transition={{ duration: 0.5 }}
                     className="relative"
                 >
-                    <div className="text-[150px] md:text-[200px] font-bold text-appGreen-300 select-none">
+                    <div className="text-[150px] md:text-[200px] font-bold text-appBrown-300 select-none">
                         404
                     </div>
                     <motion.div
@@ -29,7 +29,7 @@ export default function NotFound() {
                         {[...Array(3)].map((_, i) => (
                             <motion.div
                                 key={i}
-                                className="absolute rounded-full border-4 border-blue-500 opacity-20"
+                                className="absolute rounded-full border-4 border-appBrown-900 opacity-20"
                                 initial={{ width: 20, height: 20 }}
                                 animate={{
                                     width: [20, 200 + i * 50],
@@ -54,7 +54,7 @@ export default function NotFound() {
                     transition={{ delay: 0.4, duration: 0.5 }}
                     className="space-y-4"
                 >
-                    <h1 className="text-4xl font-bold text-gray-900">Page Not Found</h1>
+                    <h1 className="text-4xl font-bold text-appBrown-900">Page Not Found</h1>
                     <p className="text-gray-600 max-w-md mx-auto">
                         Oops! The page you're looking for seems to have wandered off into the digital wilderness.
                     </p>

@@ -8,6 +8,7 @@ import Services from "@/components/home/Services";
 import Skills from "@/components/home/Skills";
 import Testimonial from "@/components/home/Testimonial";
 import Footer from "@/components/layout/footer";
+import Header from "@/components/layout/header";
 import Social from "@/components/layout/social";
 import { useEffect } from "react";
 
@@ -21,6 +22,9 @@ export default function Home() {
   }, []);
   return (
     <main className="min-h-screen bg-white">
+
+      {/* Header Section */}
+      <Header />
 
       {/* Hero Section */}
       <Hero /> 

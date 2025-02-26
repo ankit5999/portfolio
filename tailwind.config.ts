@@ -86,7 +86,9 @@ export default {
           700: "#fba272",
         },
         appBrown:{
-          800: "#f4f5ef"
+          900: "#beaba7",
+          800: "#f4f5ef",
+          300: "#eaeaea"
         }
       },
       keyframes: {

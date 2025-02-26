@@ -52,10 +52,11 @@ export default function Header() {
                     </div>
 
                     <div className="flex items-center gap-8">
-                        <div className="text-right">
+                        <ClockTime />
+                        {/* <div className="text-right">
                             <div className="text-[13px] text-gray-900">{SectionData.address}</div>
                             <div className="text-[13px] text-gray-900 font-bold"><ClockTime /></div>
-                        </div>
+                        </div> */}
                         <Link href={SectionData.calander_link} target="blank" className="hidden md:block">
                             <Button className=" hidden md:flex justify-between items-center gap-2 bg-gray-100/80 text-gray-900 hover:bg-gray-200 text-sm"><Calendar className="w-4 h-4" />{SectionData.calander_btn}</Button>
                         </Link>
